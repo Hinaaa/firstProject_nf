@@ -120,7 +120,7 @@ public class JavaBasics {
         System.out.println("if a == B?: "+strC1.equals(strC2));
         System.out.println("if a is greater B?: "+ strC1.compareTo(strC2));
         System.out.println("if B is greater a?:"+strC2.compareTo(strC1)); //if str2 is greater
-        //true false answers
+        //true false answers, Check == or not
         System.out.println("if a == B?: "+strC1.equals(strC2));
         System.out.println("if a is greater B?: "+ (strC1.compareTo(strC2)>0));
         System.out.println("if B is greater a?:"+(strC2.compareTo(strC1)>0)); //if str2 is greater
