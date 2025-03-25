@@ -114,7 +114,7 @@ public class JavaBasics {
         System.out.println("if A is greater than B?: "+ str1.compareTo(str2));
         System.out.println("if B is greater than A?:"+str2.compareTo(str1)); //if str2 is greater
 
-        //Create two string variables with the values ​​"a" and "B" and compare them using >, <, and ==.
+        //Create two string variables with the values "a" and "B" and compare them using >, <, and ==.
         String strC1 = "a";
         String strC2 = "B";
         System.out.println("if a == B?: "+strC1.equals(strC2));

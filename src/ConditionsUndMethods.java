@@ -19,39 +19,48 @@ public class ConditionsUndMethods {
             System.out.println("Der Name ist kürzer als 10 Zeichen. namensLänge: " + namensLaenge);
         }
     }
+
     public void greetStudent(String name) {
         System.out.println("Hallo Willkomen: " + name);
     }
+
     public static boolean isEven(int number) {
-        if (number%2 == 0) {
+        if (number % 2 == 0) {
             return true;
+        } else {
+            return false;
         }
-        else { return false; }
     }
+
     public static int multiply(int a, int b) {
-        return a*b;
+        return a * b;
     }
+
     public static int subtract(int a, int b) {
-        return a*b;
+        return a * b;
     }
+
     public static float add(float a, float b) {
-        return a+b;
+        return a + b;
     }
+
     public static int makePositiv(int number) {
         return Math.abs(number);
     }
-    //Break
- /*   int grade = 2;
-    switch(grade) {
-        case 1:
-            System.out.println("sehr. gut");
-            break;
-        Case2:
-        System.out.println("gut");
-        break;
-        default:
-            System.out.println("ok");
-    }
-*/
+    public void trySwitch() {
+        //switch use
+        int grade = 2;
+        switch (grade) {
+            case 1:
+                System.out.println("Test Switch: sehr. gut");
+                break;
 
+            case 2:
+                System.out.println("Test Switch: gut");
+                break;
+
+            default:
+                System.out.println("Test Switch: ok");
+        }
+    }
 }

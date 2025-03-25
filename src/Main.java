@@ -16,5 +16,9 @@ public class Main {
         //makePositvnumber
         System.out.println("Positive als positiv: "+cUmObj.makePositiv(10));
         System.out.println("Negativ als positiv: "+cUmObj.makePositiv(-9));
+
+        //test Switch
+        cUmObj.trySwitch();
     }
+
 }
